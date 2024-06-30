@@ -21,7 +21,7 @@ window.onload = async function () {
   gameFi = await GameFi.create({
     network: "mainnet",
     connector: {
-      manifestUrl: "./tonconnect-manifest.json",
+      manifestUrl: "https://github.com/Rengated/car-game",
     },
   });
 
