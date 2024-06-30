@@ -1,0 +1,23 @@
+{
+  "name": "car-game",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.3.1",
+    "vite-plugin-node-polyfills": "^0.22.0"
+  },
+  "dependencies": {
+    "@ton/phaser-sdk": "^0.0.1-beta.1",
+    "boxen": "^7.1.1",
+    "buffer": "npm:Buffer@^0.0.0",
+    "Buffer": "^0.0.0",
+    "phaser": "^3.80.1",
+    "simplify-js": "^1.2.4"
+  }
+}
